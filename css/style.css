@@ -4,6 +4,65 @@ body {
 }
 
 
+/*FORMS*/
+
+select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    text-indent: 1px;
+    text-overflow: '';
+}
+
+
+/*******    FONTE   *******/
+
+
+/*TAMANHO*/
+
+.fonte_12 {
+    font-size: 12px;
+}
+
+.fonte_13 {
+    font-size: 13px;
+}
+
+.fonte_14 {
+    font-size: 14px;
+}
+
+.fonte_15 {
+    font-size: 15px;
+}
+
+.fonte_25 {
+    font-size: 25px;
+}
+
+
+/*FAMILIA*/
+
+.helvetica {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+}
+
+
+/*Weight*/
+
+.bold {
+    font-weight: bold;
+}
+
+.lighter {
+    font-weight: lighter;
+}
+
+.normal {
+    font-weight: normal;
+}
+
+
 /*CORES*/
 
 .cor_1 {
@@ -29,6 +88,21 @@ body {
 .cor_0 {
     color: #828282;
 }
+
+.red {
+    background: #FF0000;
+}
+
+.yellow {
+    background: #FFB800;
+}
+
+.green {
+    background: #00C42B;
+}
+
+
+/* ID */
 
 #nav_top {
     /*Tamanho*/
@@ -62,12 +136,6 @@ body {
     position: absolute;
     left: 103px;
     top: 10px;
-    /*Fonte*/
-    font-family: Arial, Helvetica, sans-serif;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 25px;
-    line-height: 29px;
 }
 
 #content_name {
@@ -76,11 +144,6 @@ body {
     height: 18.09px;
     left: 103px;
     top: 41.91px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-style: normal;
-    font-weight: 300;
-    font-size: 15px;
-    line-height: 18px;
 }
 
 #content_translator {
@@ -128,6 +191,17 @@ body {
     margin-top: 90px;
 }
 
+#content_cards {
+    margin: 75px;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+/*CLASS*/
+
 .content_title {
     position: absolute;
     width: 88.99px;
@@ -148,12 +222,6 @@ body {
     /*Posição*/
     position: absolute;
     left: 30%;
-    /*Fonte*/
-    font-family: Arial, Helvetica, sans-serif;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 15px;
-    line-height: 18px;
 }
 
 .content_status {
@@ -172,6 +240,7 @@ body {
     height: 20px;
     /*Espaçamento*/
     padding-top: 2%;
+    padding-left: 5%;
     /*Posição*/
     position: absolute;
     left: 100%;
@@ -181,13 +250,6 @@ body {
     border: 0.1px solid #828282;
     box-sizing: border-box;
     border-radius: 5px;
-    /*Fonte*/
-    font-family: Arial, Helvetica, sans-serif;
-    font-style: normal;
-    font-weight: 300;
-    font-size: 13px;
-    line-height: 15px;
-    text-align: center;
 }
 
 .content_procurar {
@@ -216,11 +278,100 @@ body {
     border: 0.1px solid #828282;
     box-sizing: border-box;
     border-radius: 5px;
-    /*Fonte*/
-    font-family: Arial, Helvetica, sans-serif;
-    font-style: normal;
-    font-weight: lighter;
-    font-size: 13px;
-    line-height: 15px;
-    text-align: justify;
+}
+
+.card_type {
+    width: 533px;
+    height: 144px;
+    display: flex;
+    background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%), #F0F0F0;
+    border: 1px solid #DDDDDD;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+.card_status_color {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 15px;
+    height: 142px;
+    border-radius: 5px 0px 0px 5px;
+}
+
+.card_secao {
+    width: 65%;
+    height: 14px;
+}
+
+.card_informacao {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    justify-content: space-evenly;
+}
+
+.linha_1 {
+    display: flex;
+    width: 100%;
+    justify-content: flex-start;
+}
+
+.linha_2 {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.linha_3 {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.linha_4 {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.card_status_txt {
+    display: flex;
+    justify-content: space-between;
+    width: 20%;
+}
+
+.card_saldo {
+    display: flex;
+    justify-content: space-between;
+    width: 65%;
+}
+
+.texto {
+    display: flex;
+    width: 50%;
+    justify-content: space-between;
+}
+
+.texto_content_horas {
+    display: flex;
+    width: 48%;
+    justify-content: space-between;
+}
+
+.relogio {
+    width: 15px;
+    height: 15px;
+}
+
+.content_barra {
+    width: 175px;
+    height: 13px;
+}
+
+.content_carregamento {
+    width: 90%;
+    height: 100%;
 }
