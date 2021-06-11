@@ -1,0 +1,185 @@
+/*CLASS*/
+
+.content_title {
+    position: absolute;
+    width: 88.99px;
+    height: 17px;
+    left: 77px;
+    top: 105px;
+}
+
+.arrow {
+    /*Posição*/
+    position: absolute;
+}
+
+.title_page {
+    /*Tamanho*/
+    width: 61.81px;
+    height: 17px;
+    /*Posição*/
+    position: absolute;
+    left: 30%;
+}
+
+.content_status {
+    /*Tamanho*/
+    width: 88.99px;
+    height: 17px;
+    /*Posição*/
+    position: absolute;
+    left: 55%;
+    top: 105px;
+}
+
+.status {
+    /*Tamanho*/
+    width: 85px;
+    height: 20px;
+    /*Espaçamento*/
+    padding-top: 2%;
+    padding-left: 5%;
+    /*Posição*/
+    position: absolute;
+    left: 100%;
+    /*Fundo*/
+    background: #FFFFFF;
+    /*Borda*/
+    border: 0.1px solid #828282;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+.content_procurar {
+    /*Tamanho*/
+    width: 90px;
+    height: 17px;
+    /*Posição*/
+    position: absolute;
+    left: 70%;
+    top: 105px;
+}
+
+.pesquisar {
+    /*Tamanho*/
+    width: 130px;
+    height: 20px;
+    /*Espaçamento*/
+    padding-top: 2%;
+    padding-left: 5%;
+    /*Posição*/
+    position: absolute;
+    left: 120%;
+    /*Fundo*/
+    background: #FFFFFF;
+    /*Borda*/
+    border: 0.1px solid #828282;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+.card_type {
+    width: 533px;
+    height: 144px;
+    display: flex;
+    background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%), #F0F0F0;
+    border: 1px solid #DDDDDD;
+    box-sizing: border-box;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.card_status_color {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 15px;
+    height: 142px;
+    border-radius: 5px 0px 0px 5px;
+}
+
+.card_secao {
+    width: 65%;
+    height: 14px;
+}
+
+.card_informacao {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    justify-content: space-evenly;
+}
+
+.linha_1 {
+    display: flex;
+    width: 100%;
+    justify-content: flex-start;
+}
+
+.linha_2 {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.linha_3 {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.linha_4 {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.card_status_txt {
+    display: flex;
+    justify-content: space-between;
+    width: 20%;
+}
+
+.card_saldo {
+    display: flex;
+    justify-content: space-between;
+    width: 65%;
+}
+
+.texto {
+    display: flex;
+    width: 50%;
+    justify-content: space-between;
+}
+
+.texto_content_horas {
+    display: flex;
+    width: 48%;
+    justify-content: space-between;
+}
+
+.relogio {
+    width: 15px;
+    height: 15px;
+}
+
+.content_barra {
+    width: 42%;
+    height: 5px;
+    background: #dddddd;
+    margin-top: 5px;
+}
+
+.content_carregamento {
+    width: 90%;
+    height: 100%;
+}
+
+.atalho {
+    width: 60px;
+    height: 55px;
+    display: flex;
+    padding-top: 5px;
+}

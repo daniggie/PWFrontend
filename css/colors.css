@@ -1,0 +1,76 @@
+/*CORES*/
+
+.cor_1 {
+    color: #0075B1;
+}
+
+.cor_2 {
+    color: #2382BA;
+}
+
+.cor_3 {
+    color: #0075B1;
+}
+
+.cor_4 {
+    color: #0091BD;
+}
+
+.cor_5 {
+    color: #28B9DA;
+}
+
+.cor_0 {
+    color: #828282;
+}
+
+.red {
+    background: #FF0000;
+}
+
+.yellow {
+    background: #FFB800;
+}
+
+.green {
+    background: #00C42B;
+}
+
+
+/*FUNDO*/
+
+.cor_1f {
+    background-color: #0075B1;
+}
+
+.cor_2f {
+    background-color: #2382BA;
+}
+
+.cor_3f {
+    background-color: #0075B1;
+}
+
+.cor_4f {
+    background-color: #0091BD;
+}
+
+.cor_5f {
+    background-color: #28B9DA;
+}
+
+.cor_0f {
+    background-color: #828282;
+}
+
+.redf {
+    background: #FF0000;
+}
+
+.yellowf {
+    background: #FFB800;
+}
+
+.greenf {
+    background: #00C42B;
+}
